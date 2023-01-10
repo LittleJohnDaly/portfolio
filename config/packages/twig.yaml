@@ -1,5 +1,13 @@
 twig:
     default_path: '%kernel.project_dir%/templates'
+    globals: 
+        contact_company: 'Grégoire Constant'
+        contact_adress: '45 rue du colonel arnaud beltrame'
+        contact_zip: '59152'
+        contact_city: 'Chéreng'
+        contact_phone: '06 26 10 44 34'
+        contact_email: 'gregoire.constant.gc@gmail.com'
+    form_themes: ['bootstrap_5_layout.html.twig']
 
 when@test:
     twig:

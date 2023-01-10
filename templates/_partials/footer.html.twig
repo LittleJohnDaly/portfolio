@@ -1,0 +1,32 @@
+<div class="container-fluid bg-dark text-light">
+	<div class="row text-center p-5">
+		<div class="col-4">
+			<h5>QURLQUES LIENS</h5>
+			<hr class="m-3">
+			<ul>
+				<li><a href="#" class="text-light">CGU</a></li>
+				<li><a href="#" class="text-light">CGV</a></li>
+				<li><a href="#" class="text-light">Mentions légales</a></li>
+			</ul>
+		</div>
+		<div class="col-4">
+			<img src="{{ asset('img/logo2.png') }}" alt'logo table top games' class="w-25">
+		</div>
+		<div class="col-4">
+			<h5>COORDONNEES</h5>
+			<hr class="m-3">
+			<p>{{ contact_company }}</p>
+			<p>{{ contact_adress }}</p>
+			<p>{{ contact_zip ~ ' ' ~ contact_city}}</p>
+			<p>{{ contact_phone }}</p>
+			<p>{{ contact_email }}</p>
+		</div>
+	</div>
+	<div class="row" id="copyright">
+		<div class="col-12 text-center">
+			<p>Copyright &copy;
+				{{ "now"|date("Y") }}
+				- Grégoire CONSTANT</p>
+		</div>
+	</div>
+</div>
